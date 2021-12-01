@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edId"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите id" />
+
+    <EditText
+        android:id="@+id/edFullName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите имя" />
+
+    <EditText
+        android:id="@+id/edBirth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите дату рождения"/>
+
+    <EditText
+        android:id="@+id/edGender"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите пол"/>
+
+    <EditText
+        android:id="@+id/edBlood"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите группу крови"/>
+
+    <EditText
+        android:id="@+id/edAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Введите адрес"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="create"/>
+
+
+</LinearLayout>
